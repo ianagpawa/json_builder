@@ -3,7 +3,7 @@ forecast = Project("Weather React",
                     "Developed React weather forecast app.",
                     "https://weather-forecast-192305.appspot.com",
                     "https://github.com/ianagpawa/weather-forecast",
-                    ["ES6", "React", "Redux"],
+                    ["ES6" React Redux"],
                     'forecast',
                     'Jan. 2018'
                     )
@@ -13,7 +13,7 @@ google = Project("Google Search",
                 "Developed Chrome extension that uses Google search.",
                 "https://github.com/ianagpawa/search-extension",
                 "https://github.com/ianagpawa/search-extension",
-                ["Javascript", "XML"],
+                ["Javascript XML"],
                 'github',
                 "Sep. 2017"
                 )
@@ -26,7 +26,6 @@ monitor = Project("Monitor",
                 ["Python"],
                 'github',
                 "Aug. 2017",
-                True
                 )
 
 
@@ -38,7 +37,6 @@ portfolio = Project("Portfolio",
                     ["Python", "Jinja2", "Webapp2", "Grunt", "Google App Engine"],
                     "currentPortfolio",
                     "Oct. 2017",
-                    True
                     )
 
 chronicle = Project("Tech Blog",
@@ -48,8 +46,7 @@ chronicle = Project("Tech Blog",
                     "https://github.com/ianagpawa/tech-blog",
                     ["Python", "Flask", "Google App Engine", "NoSQL"],
                     'chronicle',
-                    "Jun. 2017",
-                    True)
+                    "Jun. 2017")
 
 weather2 = Project("Weather Forecast",
                 "Local weather forecast.",
@@ -58,8 +55,7 @@ weather2 = Project("Weather Forecast",
                 "https://github.com/ianagpawa/weather2.0",
                 ["Python", "Google App Engine", "Weather Underground API"],
                 "weather2",
-                "Jun. 2017",
-                True)
+                "Jun. 2017")
 
 tacohub = Project("TacoHub",
                 "Map of Spanish Harlem's finest tacos.",
@@ -77,8 +73,7 @@ audacious = Project("Audacious",
                 "https://github.com/ianagpawa/audacious",
                 ["Python"],
                 "github",
-                "Jan. 2017",
-                True)
+                "Jan. 2017")
 
 catalog = Project("Music Catalog",
                 "Item catalog that stores playlists of songs.",
@@ -87,8 +82,7 @@ catalog = Project("Music Catalog",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
                 "catalog1",
-                "Dec. 2016",
-                True)
+                "Dec. 2016",)
 
 synchronicity = Project("The Synchronicity Collective",
                 "Multi-user music blog.",
