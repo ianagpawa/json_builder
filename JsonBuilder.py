@@ -1,18 +1,20 @@
-from Project import Project
+import json
 from itertools import zip_longest
+from Project import Project
 
 class JsonBuilder:
-    def __init__(self, values_arr):
-        self.values_arr = values_arr
 
-    def build_json(self):
+    def build_json(self, values_arr):
         projects = []
-        grouped_info = self.grouper(self.values_arr, 8, 'x')
+        grouped_info = self.grouper(values_arr, 8, 'x')
         for proj in grouped_info:
             projects.append(self.create_project(proj))
-        for p in projects:
-            print(p)
         return projects
+
+
+    def write_json_file(self, file_name, values_arr):
+        with open(file_name, 'w') as outfile:
+            json.dump(self.build_json(values_arr), outfile)
 
 
     def grouper(self, iterable, n, fillvalue=None):
