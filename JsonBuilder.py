@@ -1,5 +1,10 @@
 import json
-from itertools import zip_longest
+try:
+    # Python 3
+    from itertools import zip_longest
+except ImportError:
+    # Python 2
+    from itertools import izip_longest as zip_longest
 from Project import Project
 
 class JsonBuilder:
@@ -19,6 +24,7 @@ class JsonBuilder:
 
     def grouper(self, iterable, n, fillvalue=None):
         args = [iter(iterable)] * n
+        
         return list(zip_longest(*args, fillvalue=fillvalue))
     
 
